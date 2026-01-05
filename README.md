@@ -17,30 +17,30 @@ The goal is to analyze bicycle dynamics under controlled conditions and support 
 
 🧩 System Architecture
 1. Mechanical Subsystem
-• 	Custom test rig built using extruded aluminum profiles (E6/EV1 anodized)
-• 	Treadmill integrated with adjustable incline and speed
-• 	Motor shaft modified with a precision groove for optical sensing
-• 	KD40S force sensor mounted on a trolley handle assembly
+  • 	Custom test rig built using extruded aluminum profiles (E6/EV1 anodized)
+  • 	Treadmill integrated with adjustable incline and speed
+  • 	Motor shaft modified with a precision groove for optical sensing
+  • 	KD40S force sensor mounted on a trolley handle assembly
 2. Sensor Subsystem
-• 	KD40S Force Sensor
-• 	Measures Fx, Fy, Fz up to 500 N
-• 	1 kHz sampling rate
-• 	IP65/IP67 protection
-• 	Infrared Slot Sensor (10 mm)
-• 	Detects shaft interruptions
-• 	Generates pulses for RPM and rotation count
+  • 	KD40S Force Sensor
+  • 	Measures Fx, Fy, Fz up to 500 N
+  • 	1 kHz sampling rate
+  • 	IP65/IP67 protection
+  • 	Infrared Slot Sensor (10 mm)
+  • 	Detects shaft interruptions
+  • 	Generates pulses for RPM and rotation count
 3. Embedded Electronics
-• 	STM32G431 Nucleo‑64 (ARM Cortex‑M4)
-• 	SPI communication with SSD1357 OLED
-• 	EXTI interrupt for IR pulse counting
-• 	HAL‑based firmware developed in STM32CubeIDE
+  • 	STM32G431 Nucleo‑64 (ARM Cortex‑M4)
+  • 	SPI communication with SSD1357 OLED
+  • 	EXTI interrupt for IR pulse counting
+  • 	HAL‑based firmware developed in STM32CubeIDE
 
 ⚙️ Firmware Features
-• 	Interrupt‑driven pulse counting
-• 	Real‑time RPM calculation
-• 	Total rotation tracking
-• 	SPI‑based OLED visualization
-• 	Modular code structure for easy expansion
+  • 	Interrupt‑driven pulse counting
+  • 	Real‑time RPM calculation
+  • 	Total rotation tracking
+  • 	SPI‑based OLED visualization
+  • 	Modular code structure for easy expansion
 
 🖥️ Technologies Used
 
